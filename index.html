@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>image preview</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./index.js"></script>
+  </head>
+  <body>
+
+    <h1 align=center>Image Previewer</h1>
+    <h3>Provide a Link</h3>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <form runat="server" id="my-form">
+      <input type='url' id="imgInp" />
+      <input type="submit" />
+    </form>
+    <img id="blah" src="#" alt="your image" />
+
+
+    <h3><i>or</i></h3>
+
+    <h3>Drag and Drop</h3>
+    <div id="status">Drag the files from a folder into the box below.</div>
+    <div id="drop">Drop image files here</div>
+    <div id="list"></div>
+  </body>
+</html>
